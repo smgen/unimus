@@ -630,34 +630,6 @@
             <h6>Suara Merdeka Generation Team</h6>
         </div>
 
-        {{-- end kusus ceo --}}
-        {{--  start khusus gavra dan gasca --}}
-        <div class="card_Container">
-            <!-- Card untuk gav -->
-            <div class="card">
-                <div class="imbBx">
-                    <img src="{{URL::asset('storage/' . $data['get_gav']->thumbnail_team) }}" alt="">
-                </div>
-                <div class="content">
-                    <div class="contentBx">
-                        <h3>{{ $data['get_gav']->name_team }}<br><span>{{ $data['get_gav']->position->name }}</span></h3>
-                    </div>
-                </div>
-            </div>
-        
-            <!-- Card untuk gas -->
-            <div class="card">
-                <div class="imbBx">
-                    <img src="{{URL::asset('storage/' . $data['get_gas']->thumbnail_team) }}" alt="">
-                </div>
-                <div class="content">
-                    <div class="contentBx">
-                        <h3>{{ $data['get_gas']->name_team }}<br><span>{{ $data['get_gas']->position->name }}</span></h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        {{-- end kusus gavra dan gasca --}}
         {{--  start khusus seto --}}
         <div class="card_Container">
             <div class="card">
