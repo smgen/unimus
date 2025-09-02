@@ -630,26 +630,7 @@
             <h6>Suara Merdeka Generation Team</h6>
         </div>
 
-        {{--  start khusus seto --}}
-        <div class="card_Container">
-            <div class="card">
-
-                <div class="imbBx">
-                    <img src="{{URL::asset('storage/' . $data['get_seto']->thumbnail_team) }}" alt="">
-                </div>
-
-                <div class="content">
-                    <div class="contentBx">
-                        <h3>{{ $data['get_seto']->name_team }}<br><span>{{ $data['get_seto']->position->name }}</span>
-                        </h3>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        {{-- end kusus seto --}}
-
-
+       
         {{-- start team lain --}}
         <div class="card_Container">
             @foreach ($data['get_smgen'] as $smgen)
