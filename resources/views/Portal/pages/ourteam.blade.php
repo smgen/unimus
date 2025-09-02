@@ -630,23 +630,6 @@
             <h6>Suara Merdeka Generation Team</h6>
         </div>
 
-        {{--  start khusus ceo --}}
-        <div class="card_Container">
-            <div class="card">
-
-                <div class="imbBx">
-                    <img src="{{URL::asset('storage/' . $data['get_ceo']->thumbnail_team) }}" alt="">
-                </div>
-
-                <div class="content">
-                    <div class="contentBx">
-                        <h3>{{ $data['get_ceo']->name_team }}<br><span>{{ $data['get_ceo']->position->name }}</span>
-                        </h3>
-                    </div>
-                </div>
-
-            </div>
-        </div>
         {{-- end kusus ceo --}}
         {{--  start khusus gavra dan gasca --}}
         <div class="card_Container">
