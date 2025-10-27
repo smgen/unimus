@@ -231,7 +231,7 @@
 <body>
     <nav class="navbar">
         <div class="logo">
-            <img src="{{URL::asset('/images/laptop.png') }}" alt="Logo" id="navbarLogo">
+            <img src="{{URL::asset('/images/logoputihsm.png') }}" alt="Logo" id="navbarLogo">
         </div>
         <ul class="nav-links">
             <li><a href="/portal">↖ Exit</a></li>
@@ -283,7 +283,7 @@
                     @foreach ($data['get_platform'] as $platform)
                     <div class="swiper-slide tranding-slide">
                         <div class="tranding-slide-img">
-                            <img src="{{ asset('storage/' . $platform->thumbnail_platform) }}" alt="Tranding">
+                             <img src="{{ asset('images/laptop.png') }}" alt="Laptop" />
                         </div>
                         <div class="tranding-slide-content">
                             <div class="tranding-slide-content-bottom">
