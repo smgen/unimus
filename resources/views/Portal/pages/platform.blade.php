@@ -283,7 +283,7 @@
                     @foreach ($data['get_platform'] as $platform)
                     <div class="swiper-slide tranding-slide">
                         <div class="tranding-slide-img">
-                             <img src="{{ asset('images/laptop.png') }}" alt="Laptop" />
+                             <img src="{{ asset('images/facebook.png') }}" alt="Laptop" />
                         </div>
                         <div class="tranding-slide-content">
                             <div class="tranding-slide-content-bottom">
