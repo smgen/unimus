@@ -5,9 +5,6 @@
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg " color-on-scroll="500">
             <div class="container-fluid">
-                <div class="text-center mb-4">
-                    <img src="{{ asset('images/laptop.png') }}" alt="Preview Platform" style="max-width: 400px;">
-                </div>
                 <a class="navbar-brand"> Platform </a>
                 <button href="" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                     aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
